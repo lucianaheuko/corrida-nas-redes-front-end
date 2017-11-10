@@ -1,0 +1,58 @@
+#macrothemes {
+  margin-top: 160px;
+}
+
+#macrothemes aside {
+  width: 20%;
+}
+
+#macrothemes aside h1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #730344;
+}
+
+#macrothemes aside h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #730344;
+  margin-bottom: 20px;
+}
+
+#macrothemes aside li {
+  margin-bottom: 20px;
+}
+
+#macrothemes aside li a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  color: #b7b7b7;
+}
+
+#macrothemes aside li a img {
+  display: block;
+  border-radius: 50%;
+  width: 30px;
+  border: 2px solid black;
+  margin-right: 12px;
+}
+
+#macrothemes aside li:hover a {
+	color: black;
+}
+
+#macrothemes aside li.active a {
+  color: #730344;
+}
+
+#macrothemes aside li a:hover img {
+  border: 2px solid #730344;
+}
+
+#graphic {
+  width: 80%;
+  height: 600px;
+}
